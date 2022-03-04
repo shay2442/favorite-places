@@ -9,5 +9,24 @@
     "clean": "rm -rf public",
     "deploy": "cp -a client/build/. public/",
     "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shay2442/favorite-places.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shay2442/favorite-places/issues"
+  },
+  "homepage": "https://github.com/shay2442/favorite-places#readme",
+  "dependencies": {
+    "react-router-dom": "^6.2.2"
   }
 }
