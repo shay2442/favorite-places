@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Static/Home';
 import Signup from './components/Authentication/Signup';
 import Login from './components/Authentication/Login';
-import { baseUrl, headers, getToken } from './Globals';
 import PlacesContainer from './components/Places/PlacesContainer';
 import Place from './components/Places/Place'
 
